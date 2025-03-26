@@ -1,0 +1,44 @@
+{
+  "technicians": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "phone_number": "+254794019501",
+      "available_time": "08:00AM - 04:00PM",
+      "current_location": "Eldoret",
+      "role": "Region Manager"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Johnson",
+      "phone_number": "+254794720494",
+      "available_time": "10:00AM - 06:00PM",
+      "current_location": "Iten",
+      "role": "Team Leader"
+    },
+    {
+      "id": "3",
+      "name": "David Brown",
+      "phone_number": "+254746422046",
+      "available_time": "09:00AM - 05:00PM",
+      "current_location": "UOE",
+      "role": "MD"
+    },
+    {
+      "id": "4",
+      "name": "Emily White",
+      "phone_number": "+254734827659",
+      "available_time": "07:00AM - 03:00PM",
+      "current_location": "Budapest",
+      "role": "IT Technician"
+    },
+    {
+      "id": "5",
+      "name": "Michael Davis",
+      "phone_number": "+254794422494",
+      "available_time": "12:00PM - 08:00PM",
+      "current_location": "Miami",
+      "role": "Field Tech"
+    }
+  ]
+}

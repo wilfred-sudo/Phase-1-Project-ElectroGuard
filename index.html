@@ -11,40 +11,57 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="narbar-container">
-            <div class="logo-container">
-                <h1 class="logo"><i>ElectroGuard</i></h1>
-            </div>
-            <div class="menu-container">
-                <ul class="menu-list">
-                    <li class="menu-list-item active"><i>Logo</i></li>
-                    <li class="menu-list-item">Home</li>
-                    <li class="menu-list-item">About</li>
-                    <li class="menu-list-item">Contact</li>
-                    <li class="menu-list-item">Notification</li>
-                    <li class="menu-list-item">Services</li>
-                </ul>
-            </div>
+        <a href="#">LOGO</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Notification</a>
+        <a href="#">Services</a>
+    </div>
+    
+    <div class="container">
+        <div class="container-report">
+            <h2>Report Power Issues!!!!</h2>
+            <img src="/img/Transmission_Lines image.png" alt="Power Lines" style="width: 80%;">
+            <br>
+            <form id="upload live-location">
+                <input type="text" id="issueDescription" placeholder="live-location" required>
+                <button type="submit" class="btn">image</button>
+            </form>
+            <button class="btn">Check Available Technicians</button>
+        </div>
+
+        <div class="issue-card">
+            <h3>Broken Power Line Image</h3>
+            <img src="/img/broken power line.jpg" alt="Broken Power Line" width="70%">
+            <br>
+            <ul>
+                <li><form id="nameForm">
+                        <input type="text" id="name" placeholder="type your name here!" required>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </li>
+                <li>
+                    <form id="reportForm">
+                        <input type="text" id="issueDescription" placeholder="describe nature of issue!" required>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </li>
+                <li>
+                    <form id="areaForm">
+                        <input type="text" id="areaofResidence" placeholder="which county" required>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </li>
+                <li>
+                    <form id="gpsForm">
+                        <input type="text" id="geographicalarea" placeholder="pin live-location" required>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </li>
+            </ul>
+            
         </div>
     </div>
-    <main>
-        <div class="hero-section">
-            <div class="section-content">
-                <div class="hero-details">
-                    <h2 class="title">Electrical Alert System</h2>
-                    <h3 class="subtitle"><i>Report power issues!!!!</i></h3>
-                    <p class="description">ElectroGuard is a digital platform that allows users to report power issues, track outages, and contact technicians for quick electrical hazard resolution.</p>
-                    <div class="buttons">
-                        <a href="#" class="button message">'Type your message!!'</a>
-                        <a href="#" class="button available-technician">Check available technicians</a>
-                        <a href="#" class="button live-location">'Upload your live location'</a>
-                    </div>
-                </div>
-                <div class="hero-image-wrapper">
-                  <!--<img src="/img/Transmission_Lines image.png" alt="Hero" class="hero-image">-->
-                </div>
-            </div>
-        </div>
-    </main>
+    <script src="/index.js"></script>
 </body>
 </html>

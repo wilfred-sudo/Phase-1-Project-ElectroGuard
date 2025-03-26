@@ -1,75 +1,48 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(66, 66, 152);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a2a4a;
+    color: white;
 }
 .navbar {
-    background-color: rgb(88, 95, 176);
-    position: sticky;
-}
-.logo-container {
-    font-size: 25px;
-    color: #73a850;
-}
-.menu-list {
     display: flex;
-    list-style: none;
     justify-content: space-around;
+    background-color: #d3d3d3;
+    padding: 10px;
 }
-.menu-list-item.active{
+.navbar a {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
-    font-weight: 900;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
 }
-.menu-list-item {
-    padding: 10px 19px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-family: "Italianno", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 25px;
-}
-.hero-section {
-    min-height: 10vh;
-}
-.hero-section .section-content{
-    display: flex;
-    align-items: center;
-    min-height: 10vh;
-    color: white;
-    justify-content: space-between;
-}
-.hero-section .hero-details .title{
-    font-size:50px;
-    font-weight: 800;
-    color:greenyellow;
-    font-family: "Italianno", sans-serif;
-}
-.hero-section .hero-details .subtitle{
-    font-size:40px;
-    font-family: "Italianno";
-    margin-top: 8px;
-    max-width: 70%;
-    font-weight: 700;
-
-}
-.hero-section .hero-details .description{
-    font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top: 8px;
-    max-width: 70%;
-    font-weight: 100;
-}
-.hero-section .hero-details .buttons{
-    display: flex;
-    padding: 10px 6px;
-    border: 2px solid transparent;
-    background: chartreuse;
+.btn {
+    background-color: #1abc9c;
+    padding: 10px;
+    border: none;
     border-radius: 35px;
+    color: white;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
 
-    
+.container-report {
+    width: 70%;
+    text-align: left;
+}
 
+.issue-card {
+    width: 70%;
+    text-align: left;
+}
+.ul{
+    list-style-type: none;
 }
