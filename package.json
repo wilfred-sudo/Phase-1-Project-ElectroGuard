@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node server.js",
-  "server": "json-server --watch db.json --port 5500"
+    "start": "node server.js",
+    "server": "json-server --watch db.json --port 5500"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/wilfred-sudo/Phase-1-Project-ElectroGuard/issues"
   },
-  "homepage": "https://github.com/wilfred-sudo/Phase-1-Project-ElectroGuard#readme"
+  "homepage": "https://github.com/wilfred-sudo/Phase-1-Project-ElectroGuard#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
 }
