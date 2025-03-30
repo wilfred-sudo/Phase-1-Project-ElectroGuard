@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const API_URL = "http://localhost:5000";
+    const API_URL = "";
 
     // DOM Elements
     const dateInput = document.getElementById("dateInput");
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display Available Technicians Based on Date
     function displayAvailableTechnicians(date) {
         const technicians = JSON.parse(localStorage.getItem("technicians")) || [];
-        technicianList.innerHTML = ""; // Clear previous list
+        technicianList.innerHTML = "";
 
         const availableTechs = technicians.filter(tech => tech.availableDates.includes(date));
         if (availableTechs.length === 0) {
