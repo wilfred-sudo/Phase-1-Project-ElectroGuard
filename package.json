@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "json-server --watch db.json --port 5500"
+    "start": "json-server --watch db.json --port 5500"
   },
   "repository": {
     "type": "git",
