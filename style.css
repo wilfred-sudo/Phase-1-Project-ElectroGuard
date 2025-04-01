@@ -5,12 +5,14 @@ body {
     background-color: #1a2a4a;
     color: white;
 }
+
 .navbar {
     display: flex;
     justify-content: space-around;
     background-color: #d3d3d3;
     padding: 10px;
 }
+
 .navbar a {
     text-decoration: none;
     color: black;
@@ -19,6 +21,7 @@ body {
     background: white;
     border-radius: 5px;
 }
+
 .btn {
     background-color: #1abc9c;
     padding: 10px;
@@ -27,6 +30,7 @@ body {
     color: white;
     cursor: pointer;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -35,14 +39,40 @@ body {
 }
 
 .container-report {
-    width: 70%;
+    width: 45%; /* Adjusted width for better layout */
     text-align: left;
 }
 
 .issue-card {
-    width: 70%;
+    width: 45%; /* Adjusted width for better layout */
     text-align: left;
 }
-.ul{
+
+ul { /* Corrected from .ul to ul */
     list-style-type: none;
+    padding: 0; /* Added to remove default padding */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: rgb(30, 27, 27);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.hidden {
+    display: none;
 }
