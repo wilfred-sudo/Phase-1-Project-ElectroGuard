@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     const API_URL = "https://phase-1-project-electroguard.onrender.com";
-
     // DOM Elements
     const dateInput = document.getElementById("dateInput");
     const technicianList = document.getElementById("technicianList");
